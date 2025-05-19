@@ -12,7 +12,7 @@ const logos: string[] = [
 
 export const Brands = () => {
   return (
-    <section>
+    <section id="brands">
       <Container className="space-y-5">
         <div className="max-w-3xl mx-auto">
           <Title>Trusted by big companies</Title>

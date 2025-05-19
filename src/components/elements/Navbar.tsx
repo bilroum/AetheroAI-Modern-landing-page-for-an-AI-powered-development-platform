@@ -4,11 +4,11 @@ import { NavItem } from "../shared/NavItem";
 import { BtnLink } from "../shared/BtnLink";
 import { useTheme } from "../../utils/hooks/useTheme";
 
-const navItems = [
+export const navItems = [
   { href: "#", text: "Home" },
   { href: "#services", text: "Services" },
   { href: "#about", text: "About" },
-  { href: "#features", text: "Features" },
+  { href: "#pricing", text: "Pricing" },
 ];
 export const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
@@ -46,7 +46,11 @@ export const Navbar = () => {
                             lg:pb-0 border-b border-box-border lg:border-0
                             px-6 lg:px-0"
             >
-              <BtnLink text="Get Started" href="#cta" className="" />
+              <BtnLink
+                text="Get Started"
+                href="#cta"
+                className="hover:bg-violet-800"
+              />
             </div>
           </div>
 

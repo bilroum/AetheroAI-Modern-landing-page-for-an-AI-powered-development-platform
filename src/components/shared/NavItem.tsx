@@ -8,7 +8,7 @@ export const NavItem = ({ href, text }: NavItemProps) => {
     <li>
       <a
         href={href}
-        className="duration-300 font-medium ease-linear hover:text-primary"
+        className="duration-300 font-medium ease-linear hover:text-primary hover:underline hover:underline-offset-4"
       >
         {text}
       </a>
