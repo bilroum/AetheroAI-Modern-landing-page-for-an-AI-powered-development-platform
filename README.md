@@ -1,6 +1,6 @@
 # AetheroAI-Modern landing page (React + TypeScript + Vite)
 
-AetheroAI-Modern-landing-page-for-an-AI-powered-development-platform AitheroAI is responsive landing page, an AI-powered platform for modern engineering teams. Built with React, TypeScript, and Tailwind CSS- using Vite for the setup-, this page showcases key features, pricing plans, and calls to action, optimized for performance and clarity.
+AitheroAI is responsive landing page, an AI-powered platform for modern engineering teams. Built with React, TypeScript, and Tailwind CSS- using Vite for the setup-, this page showcases key features, pricing plans, and calls to action, optimized for performance and clarity.
 
 # React + TypeScript + Vite
 
